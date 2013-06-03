@@ -6,7 +6,7 @@ Download ''' Demo/life-game-windows.zip '''
 Screenshot
 =======
 
-![ScreenShot]()
+![ScreenShot](https://raw.github.com/JoneWang/life-game/master/Screenshot/Game.jpg)
 
 Play
 =======
