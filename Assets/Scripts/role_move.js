@@ -37,5 +37,6 @@ function Update() {
 
 function OnBecameInvisible() {
 	//Out of the screen
-	transform.position = new Vector3(0.5497832f, 0.2547682, 0);
+	//transform.position = new Vector3(0.5497832f, 0.2547682, 0);
+	Application.LoadLevel("life");
 }
