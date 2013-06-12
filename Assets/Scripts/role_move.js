@@ -7,6 +7,13 @@ var isGravity : int = 1;
 private var moveDirection : Vector3 = Vector3.zero;
 
 private var roleSprite : tk2dSprite;
+private var anim : tk2dAnimatedSprite;
+private var walking : boolean = false;
+
+function Start () {
+    // This script must be attached to the sprite to work.
+    anim = GetComponent(tk2dAnimatedSprite);
+}
 
 function Update() {
     var controller : CharacterController = GetComponent(CharacterController);
@@ -14,25 +21,37 @@ function Update() {
     
     // Player move
     if (controller.isGrounded) {
-    	if (Input.GetKey(KeyCode.A)) {
-    		roleSprite.spriteId = 1;
-    	}
-    	if (Input.GetKey(KeyCode.D)) {
-    		roleSprite.spriteId = 0;
-    	}
     
         moveDirection = Vector3(Input.GetAxis("Horizontal"), 0, 0);
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
-            
-        if (Input.GetButton ("Jump")) {
+
+        if (Input.GetButton("Jump")) {
             moveDirection.y = jumpSpeed;
         }
+    }
+    
+    if (Input.GetKeyDown(KeyCode.A)) {
+    	if (!anim.IsPlaying("leftwalk")){
+            anim.Play("leftwalk");
+        }
+    }
+    else if (Input.GetKeyUp(KeyCode.A)) {
+         anim.Play("leftstop");
+   	}
+    if (Input.GetKeyDown(KeyCode.D)) {
+    	if (!anim.IsPlaying("rightwalk")){
+            anim.Play("rightwalk");
+        }
+    }
+    else if (Input.GetKeyUp(KeyCode.D)) {
+        anim.Play("rightstop");
     }
     
 	moveDirection.y -= gravity * Time.deltaTime;
     // Move the controller
     controller.Move(moveDirection * Time.deltaTime);
+    	
 }
 
 function OnBecameInvisible() {

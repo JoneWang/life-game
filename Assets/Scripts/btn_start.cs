@@ -14,6 +14,6 @@ public class btn_start : MonoBehaviour {
 	}
 	
 	void OnMouseUp () {
-    	Application.LoadLevel("game");
+    	Application.LoadLevel("content");
 	}
 }
