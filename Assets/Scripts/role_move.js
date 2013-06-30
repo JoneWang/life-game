@@ -31,20 +31,20 @@ function Update() {
         }
     }
     
-    if (Input.GetKeyDown(KeyCode.A)) {
+    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.H)) {
     	if (!anim.IsPlaying("leftwalk")){
             anim.Play("leftwalk");
         }
     }
-    else if (Input.GetKeyUp(KeyCode.A)) {
+    else if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.H)) {
          anim.Play("leftstop");
    	}
-    if (Input.GetKeyDown(KeyCode.D)) {
+    if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.L)) {
     	if (!anim.IsPlaying("rightwalk")){
             anim.Play("rightwalk");
         }
     }
-    else if (Input.GetKeyUp(KeyCode.D)) {
+    else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.L)) {
         anim.Play("rightstop");
     }
     
