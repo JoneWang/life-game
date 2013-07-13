@@ -51,7 +51,11 @@ function Update() {
 	moveDirection.y -= gravity * Time.deltaTime;
     // Move the controller
     controller.Move(moveDirection * Time.deltaTime);
-    	
+    
+    Debug.Log((1.6f < transform.position.x).ToString() + ',' + (transform.position.x < 1.7f).ToString() + ',' + (36.4f < transform.position.y).ToString() + ',' + (transform.position.y < 36.9f).ToString());
+    if (1.6f < transform.position.x && transform.position.x < 1.7f && 36.4f < transform.position.y && transform.position.y < 36.9f) {
+    	transform.localScale.x = 2;
+    }
 }
 
 function OnBecameInvisible() {
