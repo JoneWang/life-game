@@ -1,0 +1,151 @@
+[33mcommit a58067b85881f37b6758a200946a0e9cffdf466a[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sun Jul 21 11:43:38 2013 +0800
+
+    Added backgroud music.
+
+[33mcommit 8bd46e5c5e042f740724e19234b9788a2b511212[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sat Jul 13 21:58:55 2013 +0800
+
+    Added game end.
+
+[33mcommit fa1d89219aca0443a097a4825222c0a98caf9eaa[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sat Jul 13 21:58:37 2013 +0800
+
+    Finished all map.
+
+[33mcommit 9fa8de5fcbea26de2a8efd9bc3fdb234a7d6e496[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sat Jul 13 21:53:53 2013 +0800
+
+    Updated .gitignore.
+
+[33mcommit 61abcfbad1dd4fbf2e7caa06583f5b90aac02281[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sun Jun 30 19:57:09 2013 +0800
+
+    Added screenshot for new map.
+
+[33mcommit a4797942447c809f677cd257f19a0c82ac775ed1[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sun Jun 30 19:56:44 2013 +0800
+
+    Update map.
+
+[33mcommit a11125bc6c2a14639772f40f981f63ad127f4939[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sun Jun 30 19:51:07 2013 +0800
+
+    Changed background music.
+
+[33mcommit f5f9120b12a2cabe122465be9e5b20f5cca56d2c[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sun Jun 30 19:49:40 2013 +0800
+
+    Fixed player don't move when use arrow keys.
+
+[33mcommit d615a7b6f991962d080918c87f86affe13d639ed[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Thu Jun 13 00:17:38 2013 +0800
+
+    Updated screenshot and demo.
+
+[33mcommit 37e3efa24a0656dea05d8e3e1023d913b4c7ee40[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Thu Jun 13 00:17:06 2013 +0800
+
+    All new game scene for new demo.
+
+[33mcommit bb83429e7285192241bf84d3daa5dcdd6b335472[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Thu Jun 13 00:15:59 2013 +0800
+
+    Added background music and pixel font.
+
+[33mcommit 163850cea9b0569f38ca129f22e346abd18d4f9c[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Thu Jun 13 00:14:22 2013 +0800
+
+    Added textures ps project.
+
+[33mcommit 5492954b3c093c691c2731ec90cea4bff0c4d7b0[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Thu Jun 13 00:13:44 2013 +0800
+
+    Added new textures.
+
+[33mcommit 3c2d6863ede920641188c40444bcb10a0e93a9b8[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Thu Jun 13 00:11:41 2013 +0800
+
+    Clean temp file.
+
+[33mcommit 332e56dd3798d04bac58c87eb15f56550747f005[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Wed Jun 5 22:51:48 2013 +0800
+
+    Clean.
+
+[33mcommit 57dd689fd132e3c993f8971f0f6f100d6785db70[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Wed Jun 5 22:51:11 2013 +0800
+
+    Added player walk animation material.
+
+[33mcommit 9061edd335cd274124b0771fcc940e598a0bd86d[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Tue Jun 4 22:54:43 2013 +0800
+
+    Uploaded new demo.
+
+[33mcommit ec218a1b95654901a91a74c9a194f0756a85cb46[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Tue Jun 4 22:54:28 2013 +0800
+
+    Added story document.
+
+[33mcommit ea9244e4d664d88919986a7ce4d33b21cb814101[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Tue Jun 4 22:54:12 2013 +0800
+
+    Updated game camera move and game quit.
+
+[33mcommit dd7223607cb70c0244dbf5d53a87ee3212193580[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Mon Jun 3 23:48:50 2013 +0800
+
+    Upload project and demo.
+
+[33mcommit 5f9f66f94855eb1d7f83de833362db89d18c2271[m
+Author: Jone Wang <onelinecloud@gmail.com>
+Date:   Mon Jun 3 23:49:18 2013 +0800
+
+    Update README.md
+
+[33mcommit e5fd8d99cfcbf3b689c64c4154c0298d25931a23[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Mon Jun 3 23:46:59 2013 +0800
+
+    Update map, fixed camera, role rebirth...
+
+[33mcommit dd58af53cc42a2cc593d3359e2678f8afa86c2d3[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sun Jun 2 19:03:24 2013 +0800
+
+    Added player and block in game scene.
+
+[33mcommit a05ad575238437e12c632840ec16359e9c4cd130[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sat Jun 1 18:56:55 2013 +0800
+
+    Game material's psd.
+
+[33mcommit 0faee79964b352c3f51a4119daade86062085fd8[m
+Author: Yun <onelinecloud@gmail.com>
+Date:   Sat Jun 1 18:54:44 2013 +0800
+
+    first commit.
+    
+    this a game.

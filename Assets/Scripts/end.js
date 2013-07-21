@@ -5,7 +5,7 @@ function Start () {
 }
 
 function Update () {
-	Debug.Log(transform.position.y);
+	//Debug.Log(transform.position.y);
 	if (transform.position.y >= 38) {
 		GameOver();
 	}
