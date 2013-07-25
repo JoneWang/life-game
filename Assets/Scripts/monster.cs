@@ -20,5 +20,13 @@ public class monster : MonoBehaviour {
 		}
 	}
 	
+	void OnTriggerStay(Collider collider) {
+		string objectName = collider.gameObject.name;
+		if (objectName == "Player") {
+			death d = collider.gameObject.GetComponent<death>();
+			d.isDeath = true;
+		}
+	}
+	
 	
 }
