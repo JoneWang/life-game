@@ -219,4 +219,4 @@ pip-log.txt
 *.unityproj
 *.sln
 *.userprefs
-Library/
+Library/metadata/
