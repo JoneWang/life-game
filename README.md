@@ -1,7 +1,9 @@
-﻿﻿Demo
+Download bata
 =======
 
-Download ''' Demo/life-game-windows.zip '''
+For [Windows](http://jone.qiniudn.com/fat_jesus_for_windows_x86_beta.zip)
+
+For [Mac](http://jone.qiniudn.com/fat_jesus_for_mac_beta.zip)
 
 Screenshot
 =======
