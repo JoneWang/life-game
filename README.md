@@ -1,4 +1,4 @@
-Download bata
+Download beta
 =======
 
 For [Windows](http://jone.qiniudn.com/fat_jesus_for_windows_x86_beta.zip)
